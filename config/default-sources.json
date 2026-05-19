@@ -28,7 +28,7 @@
     {
       "name": "AI & I by Every",
       "rssUrl": "https://anchor.fm/s/ed1f5584/podcast/rss",
-      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vffKHwJL"
     }
   ],
   "blogs": [
@@ -45,33 +45,40 @@
       "indexUrl": "https://claude.com/blog",
       "articleBaseUrl": "https://claude.com/blog/",
       "fetchMethod": "http"
+    },
+    {
+      "name": "OpenAI Blog",
+      "type": "scrape",
+      "indexUrl": "https://openai.com/blog",
+      "articleBaseUrl": "https://openai.com/blog/",
+      "fetchMethod": "http"
     }
   ],
   "x_accounts": [
     { "name": "Andrej Karpathy", "handle": "karpathy" },
-    { "name": "Swyx", "handle": "swyx" },
-    { "name": "Josh Woodward", "handle": "joshwoodward" },
-    { "name": "Kevin Weil", "handle": "kevinweil" },
+    { "name": "Sam Altman", "handle": "sama" },
     { "name": "Peter Yang", "handle": "petergyang" },
-    { "name": "Nan Yu", "handle": "thenanyu" },
-    { "name": "Madhu Guru", "handle": "realmadhuguru" },
-    { "name": "Amanda Askell", "handle": "AmandaAskell" },
-    { "name": "Cat Wu", "handle": "_catwu" },
-    { "name": "Thariq", "handle": "trq212" },
-    { "name": "Google Labs", "handle": "GoogleLabs" },
     { "name": "Amjad Masad", "handle": "amasad" },
-    { "name": "Guillermo Rauch", "handle": "rauchg" },
-    { "name": "Alex Albert", "handle": "alexalbert__" },
     { "name": "Aaron Levie", "handle": "levie" },
-    { "name": "Ryo Lu", "handle": "ryolu_" },
+    { "name": "Guillermo Rauch", "handle": "rauchg" },
     { "name": "Garry Tan", "handle": "garrytan" },
-    { "name": "Matt Turck", "handle": "mattturck" },
+    { "name": "Claude", "handle": "claudeai" },
+    { "name": "OpenAI", "handle": "OpenAI" },
+    { "name": "Anthropic", "handle": "AnthropicAI" },
+    { "name": "Swyx", "handle": "swyx" },
+    { "name": "Kevin Weil", "handle": "kevinweil" },
+    { "name": "Thariq", "handle": "trq212" },
     { "name": "Zara Zhang", "handle": "zarazhangrui" },
     { "name": "Nikunj Kothari", "handle": "nikunj" },
     { "name": "Peter Steinberger", "handle": "steipete" },
     { "name": "Dan Shipper", "handle": "danshipper" },
     { "name": "Aditya Agarwal", "handle": "adityaag" },
-    { "name": "Sam Altman", "handle": "sama" },
-    { "name": "Claude", "handle": "claudeai" }
+    { "name": "Emad Mostaque", "handle": "EMostaque" },
+    { "name": "Clem Delangue", "handle": "clem" },
+    { "name": "Paul Graham", "handle": "paulg" },
+    { "name": "Naval", "handle": "naval" },
+    { "name": "Elad Gil", "handle": "eladgil" },
+    { "name": "YC", "handle": "ycombinator" },
+    { "name": "a16z", "handle": "a16z" }
   ]
 }
