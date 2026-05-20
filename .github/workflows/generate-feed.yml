@@ -31,7 +31,7 @@ jobs:
       run: |
         cd scripts
         echo "🔍 测试 OAuth 1.0 认证..."
-        node generate-feed-oauth.js
+        node generate-feed-oauth.cjs
         echo ""
         echo "🚀 生成正式 feed..."
         node generate-feed.js || true
